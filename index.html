@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="../Img/favicon.svg">
+<link rel="icon" type="image/png" href="../Img/favicon.png">
+  <title>YUMMY FONTS</title>
+</head>
+
+<body>
+
+    <!-- <textarea class="result-output" placeholder='This is WrapSlab, &#10;perfect for your&#10;special days' spellcheck="false"></textarea> -->
+
+    <div class="wrapper1">
+      <div class="buttons1">
+        <span class="clr active1" onclick="bgWhite()">White</span>
+        <span class="clr" onclick="bgYellow()">Yellow</span>
+        <span class="clr" onclick="bgBlue()">Blue</span>
+        <span class="clr" onclick="bgPink()">Pink</span>
+        <span class="clr" onclick="bgGreen()">Green</span>
+      </div>
+    </div>
+
+    <textarea class="result-output" id="txt" placeholder='The most Delicious Fonts Ever! 1234567890' spellcheck="false"></textarea>
+
+    <div class="wrapper2">
+      <div class="buttons2">
+        <span class="btn active2" onclick="document.getElementById('txt').style.fontFamily = 'FizzyA'"; >Fizzy A</span>
+        <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'FIzzyB'">Fizzy B</span>
+        <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'JuicyA'">Juicy A</span>
+        <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'JuicyB'">Juicy B</span>
+        <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'CrunchyA'">Crunchy A</span>
+        <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'CrunchyB'">Crunchy B</span>
+        <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'Dingbat'">Dingbat</span>
+        <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'WrapSlab'">Wrap Slab</span>
+        <!-- <span class="btn color-changer">
+          Background
+          <input type="color" value="#ffffff" class="changer2">
+        </span> -->
+      </div>
+      </div>
+
+    <div class="slider">
+      <input class="none" type="range" min="1" max="40" value="10" id="slider" step="0.0001">
+      <input class="none" type="range" min="50" max="200" value="100" id="slider1" step="0.001">
+      <input class="none" type="range" min="0" max="50" value="0" id="slider2" step="0.001">
+    </div>
+
+<div class="mobile"><mark>On mobile devices you can only try Fizzy A.</mark><p></p><mark>For trying more fonts please use PC</mark></div>
+    <!-- <div class="color-changer">
+      Background
+      <input type="color" value="#ffffff" class="changer2">
+    </div> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
