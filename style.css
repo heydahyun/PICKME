@@ -2,42 +2,42 @@
 
 @font-face {
   font-family: 'FizzyA';
-  src: url("../Fonts/FizzyA-Regular.woff2") format("woff2");
+  src: url("./Fonts/FizzyA-Regular.woff2") format("woff2");
   font-weight: 1 999;
 }
 @font-face {
   font-family: 'FizzyB';
-  src: url("../Fonts/FizzyB-Regular.woff2") format("woff2");
+  src: url("./Fonts/FizzyB-Regular.woff2") format("woff2");
   font-weight: 1 999;
 }
 @font-face {
   font-family: 'JuicyA';
-  src: url("../Fonts/JuicyA-Regular.woff2") format("woff2");
+  src: url("./Fonts/JuicyA-Regular.woff2") format("woff2");
   font-weight: 1 999;
 }
 @font-face {
   font-family: 'JuicyB';
-  src: url("../Fonts/JuicyB-Regular.woff2") format("woff2");
+  src: url("./Fonts/JuicyB-Regular.woff2") format("woff2");
   font-weight: 1 999;
 }
 @font-face {
   font-family: 'CrunchyA';
-  src: url("../Fonts/CrunchyA-Regular.woff2") format("woff2");
+  src: url("./Fonts/CrunchyA-Regular.woff2") format("woff2");
   font-weight: 1 999;
 }
 @font-face {
   font-family: 'CrunchyB';
-  src: url("../Fonts/CrunchyB-Regular.woff2") format("woff2");
+  src: url("./Fonts/CrunchyB-Regular.woff2") format("woff2");
   font-weight: 1 999;
 }
 @font-face {
   font-family: 'Dingbat';
-  src: url("../Fonts/Dingbat-Regular.woff2") format("woff2");
+  src: url("./Fonts/Dingbat-Regular.woff2") format("woff2");
   font-weight: 1 999;
 }
 @font-face {
   font-family: 'WrapSlab';
-  src: url("../Fonts/DahyunHwang_WrapSlab.woff2") format("woff2");
+  src: url("./Fonts/DahyunHwang_WrapSlab.woff2") format("woff2");
   font-weight: 1 999;
 }
 @font-face {
