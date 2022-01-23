@@ -53,6 +53,8 @@
 }
 
 body {
+  overflow-x: hidden;
+  overflow-y: hidden;
   font-family: 'Lausanne';
   /* background-color: rgb(255, 210, 9); */
   margin: 0px;

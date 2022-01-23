@@ -59,6 +59,9 @@
   src: url("./Fonts/TWKLausanne-300.woff2");
   font-weight: 1 999;
 }
+*{
+  overflow-x: hidden;
+}
 
 body {
   font-family: 'Lausanne';
@@ -69,6 +72,7 @@ body {
   font-size: 2vw;
   line-height: 115%;
   hyphens: auto;
+  overflow-x: hidden;
 }
 
 .mobile_content {
@@ -160,6 +164,7 @@ footer {
 @media only screen and (max-width: 915px) {
   body {
     font-family: 'Lausanne';
+    overflow-x: hidden;
   }
 
   .menu_container {
