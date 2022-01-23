@@ -91,6 +91,7 @@ window.addEventListener("scroll", function() {
   aimTimeline = window.pageYOffset / 3000;
 })
 
+window.addEventListener('resize', onResize, false);
 function onResize() {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
