@@ -290,6 +290,9 @@ input[type=range] {
 }
 
 @media only screen and (max-width: 915px) {
+  body{
+    overflow-y: visible;
+  }
   .wrapper1, .wrapper2 {  
 display: none;
 }
