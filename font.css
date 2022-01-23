@@ -159,7 +159,7 @@ a:visited {
 .wrapper1 .buttons1 .home {
   padding: 0 0vw;
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   color: rgb(255, 0, 0);
   margin-right: 3vw;
   width: 12vw;
