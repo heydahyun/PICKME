@@ -16,7 +16,7 @@ scene.add(light);
 
 // White directional light at half intensity shining from the top.
 const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
-directionalLight.position.set(1, 0, 3);
+directionalLight.position.set(1, 1, 3);
 scene.add(directionalLight);
 
 const loader = new THREE.TextureLoader();
