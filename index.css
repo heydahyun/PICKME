@@ -63,11 +63,6 @@
 body {
   font-family: 'Lausanne';
   background-color: #ffffff;
-  background: url("./Img/Asset 3.svg") repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   color: rgb(255, 4, 4);
   margin: 0px;
   min-height: calc(3000px+100vh);
