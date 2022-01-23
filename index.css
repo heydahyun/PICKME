@@ -53,6 +53,11 @@
   src: url("./Fonts/TWKLausanne-200.woff2");
   font-weight: 1 999;
 }
+@font-face {
+  font-family: 'Lausanne2';
+  src: url("./Fonts/TWKLausanne-300.woff2");
+  font-weight: 1 999;
+}
 
 body {
   font-family: 'Lausanne';
@@ -143,6 +148,9 @@ section.book {
 }
 
 @media only screen and (max-width: 915px) {
+  body {
+    font-family: 'Lausanne';
+  }
   .menu_container {
     display: flex;
     flex-direction: column;
