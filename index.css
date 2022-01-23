@@ -88,7 +88,8 @@ body {
   font-size: 1.8vw;
   margin-top: 1vw;
   margin-right: 1vw;
-  padding: 1vw;
+  height:2.0vw;
+  padding: 0.8vw;
   border-radius: 35px;
   border: 1px solid red;
   color: red;
@@ -118,8 +119,8 @@ section.content_container {
 
 .content0 {
   /* flex-direction: row; */
-  margin-top: -6.2vw;
-  padding-left: 1.5vw;
+  margin-top: -5.8vw;
+  padding-left: 0.8vw;
   padding-right: 1.5vw;
   width: 22%;
   font-size: 1.2vw;
@@ -146,7 +147,7 @@ section.book {
   position: fixed;
   /* top:0;
   right:-10000; */
-  z-index: 2;
+  z-index: 0;
 }
 
 footer {

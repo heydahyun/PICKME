@@ -36,7 +36,7 @@ const materials = urls.map(url => {
   })
 })
 
-const geometry = new THREE.BoxGeometry(4.0, 5.5, 2.6);
+const geometry = new THREE.BoxGeometry(4.0, 6.0, 2.6);
 
 // const cube1 = new THREE.Mesh(geometry, materials);
 const cube = new THREE.Mesh(geometry, materials);
