@@ -275,6 +275,15 @@ mark {
     line-height: 110%;
   }
 
+  mark {
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    padding-right: 0px;
+    padding-left: 4px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+  
+  }
   .content2 {
     display: none;
   }
