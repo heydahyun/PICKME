@@ -147,7 +147,7 @@ a:visited {
   background-color: rgb(255, 255, 255);
   color: rgb(255, 0, 0);
   margin-left: 1vw;
-  width: 12vw;
+  width: 15vw;
   height: 5vh;
   justify-content: center;
   align-items: center;
@@ -178,8 +178,8 @@ a:visited {
   display: flex;
   background-color: transparent;
   color: rgb(255, 0, 0);
-  margin-left: 5vw;
-  width: 20vw;
+  margin-left: 3vw;
+  width: 30vw;
   height: 5vh;
   justify-content: center;
   align-items: center;
