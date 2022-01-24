@@ -42,8 +42,8 @@
       }
 
       function bgWhite() {
-        document.body.style.backgroundColor = "white";
-        document.getElementById('txt').style.backgroundColor = "white";
+        document.body.style.backgroundColor = "#eeeeee";
+        document.getElementById('txt').style.backgroundColor = "#eeeeee";
         document.getElementById('txt').style.color = "red";
       } 
       function bgYellow() {
