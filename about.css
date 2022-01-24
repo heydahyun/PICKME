@@ -63,7 +63,7 @@
 body {
   font-family: 'Lausanne';
   background: url("./Img/Asset 4.svg") repeat center center fixed;
-  background-color: #fff000;
+  background-color: #ffffff;
   color: rgb(255, 4, 4);
   margin: 0px;
   min-height: calc(3000px+100vh);
@@ -174,8 +174,8 @@ footer {
 }
 
 mark {
-  background-color: #ffffff;
-  color: red;
+  background-color: #ffee00d5;
+  color: rgb(255, 0, 0);
   padding-right: 0px;
   padding-left: 4px;
   padding-top: 3px;
