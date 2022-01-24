@@ -14,31 +14,73 @@
   <title>YUMMY TYPE</title>
 </head>
 <link rel="stylesheet" href="font.css">
+
 <body>
 
   <!-- <textarea class="result-output" placeholder='This is WrapSlab, &#10;perfect for your&#10;special days' spellcheck="false"></textarea> -->
+<div class="mobile_wrapper"><a class="home_mobile" href="#demo-modal">ABOUT</a>
+  <a class="link1_mobile" href="display.html"
+  onclick="window.open(this.href,'targetWindow',`toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=1440,height=805`);return false;">TRY
+  OUR SNACKS!</a></div>
+  
 
   <div class="wrapper1">
     <div class="buttons1">
-      <!-- <span class="hover1" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Green</span> -->      
-      <a class="home" href="index.html" target="_blank">ABOUT</a>
+      <!-- <span class="hover1" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Green</span> -->
+      <!-- <a class="home" href="index.html" target="_blank">ABOUT</a> -->
+      <a class="home" href="#demo-modal">ABOUT</a>
       <span class="clr active1" onclick="bgWhite()">White</span>
       <span class="clr" onclick="bgYellow()">Yellow</span>
       <span class="clr" onclick="bgBlue()">Blue</span>
       <span class="clr" onclick="bgPink()">Pink</span>
       <span class="clr" onclick="bgGreen()">Green</span>
-      <a class="link1" href="display.html" onclick="window.open(this.href,'targetWindow',`toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=1440,height=805`);return false;">TRY OUR SNACKS!</a>
+      <a class="link1" href="display.html"
+        onclick="window.open(this.href,'targetWindow',`toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=1440,height=805`);return false;">TRY
+        OUR SNACKS!</a>
       <!-- <span class="link1" ><a onclick=" window.open('display.html','',' scrollbars=no, menubar=no,width=100, resizable=no, toolbar=no,location=no, status=no')">TRY OUR SNACKS!</a></span> -->
     </div>
-
   </div>
 
+
+  <!-- modal -->
+
+  <div id="demo-modal" class="modal">
+    <div class="modal_content">
+      <div class="modal_text">
+        &emsp;&emsp;PICK ME – YUMMY TYPE<br>
+        <br>
+        <p>
+          These fonts were created for my graphic experiment, which is a hypothetical healthy snack brand whichi must be
+          eye-catching. If snacks don't cause chidren's healthy problems, the world can be a better place.
+          <br>&emsp;&emsp;To make these fonts, I researched about more than 80 well-known and popular snacks in the US,
+          Europe, Japan, and Korea. These are all regions that I have lived in for at least 2 months, which allows me to
+          experience the
+          food culture.
+          <br>
+          &emsp;&emsp;Yummy font series is made with a grid system inspired by Le Corbusier's modulor system. Dingbat
+          Font contains graphic elements extracted from the snack packages I researched.
+          <br>
+          &emsp;&emsp;Wrap slab is an ink-saving ink trap font inspired by eco paper bubble wrap made in my second
+          semester at Bauhaus-University Weimar.
+        </p>
+        <br>
+        &emsp;&emsp;by <a href="https://dahyunhwang.com" target="_blank">Dahyun Hwang</a>
+      </div>
+
+      <a href="#" class="modal_close">&times;</a>
+    </div>
+  </div>
+
+
+
+  <!-- text area  -->
   <textarea class="result-output" id="txt" placeholder='The most Delicious Fonts Ever! 1234567890'
     spellcheck="false"></textarea>
 
   <div class="wrapper2">
     <div class="buttons2">
-      <span class="btn active2" onclick="document.getElementById('txt').style.fontFamily = 'FizzyA'" ;>Fizzy A</span>
+      <span class="btn active2" onclick="document.getElementById('txt').style.fontFamily = 'FizzyA'" ;>Fizzy
+        A</span>
       <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'FIzzyB'">Fizzy B</span>
       <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'JuicyA'">Juicy A</span>
       <span class="btn" onclick="document.getElementById('txt').style.fontFamily = 'JuicyB'">Juicy B</span>
