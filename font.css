@@ -421,7 +421,7 @@ padding: 2vw;
   outline: 0;
   border: none;
   font-size: 15vw;
-  height: 55vh;
+  height: 50vh;
   width: 100vw;
   line-height: 110%;
   letter-spacing: -2px;
@@ -461,8 +461,8 @@ input[type=range] {
   border-radius: 25px;
   border: 1px solid red;
   position: relative;
-  height: 125vw;
-  width: 80vw;
+  height: 100vw;
+  width: 90vw;
   /* max-width: 90%; */
   background: rgb(255, 255, 255);
   /* -webkit-box-shadow: 45px 30px 43px -11px #ff0000;
@@ -474,7 +474,7 @@ input[type=range] {
 
   .modal_text {
     margin-top: 2vw;
-    width: 65vw;
+    width: 80vw;
     hyphens: auto;
   }
   

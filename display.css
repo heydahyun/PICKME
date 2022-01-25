@@ -264,6 +264,7 @@ footer {
   body{
     background: url("./Img/Asset 4.svg") repeat center center fixed;
     overflow-y: visible;
+    overflow-x: hidden;
   }
   
   .grid-img1 {
