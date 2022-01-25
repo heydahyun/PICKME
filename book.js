@@ -43,8 +43,8 @@ const cube = new THREE.Mesh(geometry, materials);
 scene.add(cube);
 // scene.add(cube1);
 
-camera.position.z = 10;
-camera.position.y = 0.2;
+camera.position.z = 11;
+camera.position.y = 0.15;
 camera.position.x = 0;
 
 
