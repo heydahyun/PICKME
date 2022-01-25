@@ -47,19 +47,19 @@
         document.getElementById('txt').style.color = "red";
       } 
       function bgYellow() {
-        document.body.style.backgroundColor = '#FFF406';
-        document.getElementById('txt').style.backgroundColor = '#FFF406';
+        document.body.style.backgroundColor = '#FFFF00';
+        document.getElementById('txt').style.backgroundColor = '#FFFF00';
         // document.getElementById('txt').style.color = '#FF65BD';
       } 
       function bgBlue() {
-        document.body.style.backgroundColor = "#4ECEF1";
-        document.getElementById('txt').style.backgroundColor = "#4ECEF1";
+        document.body.style.backgroundColor = "#8DE8FD";
+        document.getElementById('txt').style.backgroundColor = "#8DE8FD";
       } 
       function bgPink() {
-        document.body.style.backgroundColor = "#FF76DD";
-        document.getElementById('txt').style.backgroundColor = "#FF76DD";
+        document.body.style.backgroundColor = "#FFC4D8";
+        document.getElementById('txt').style.backgroundColor = "#FFC4D8";
       } 
       function bgGreen() {
-        document.body.style.backgroundColor = "#CAFF00";
-        document.getElementById('txt').style.backgroundColor = "#CAFF00";
+        document.body.style.backgroundColor = "#00B24F";
+        document.getElementById('txt').style.backgroundColor = "#00B24F";
       } 
