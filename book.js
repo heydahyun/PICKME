@@ -16,18 +16,18 @@ scene.add(light);
 
 // White directional light at half intensity shining from the top.
 const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
-directionalLight.position.set(2, 1, 3);
+directionalLight.position.set(1, 0, 5);
 scene.add(directionalLight);
 
 const loader = new THREE.TextureLoader();
 
 const urls = [
-  "./Snacks/Asset 15.png",
+  "./Snacks/Asset 2.png",
   "./Snacks/Asset 16.png",
   "./Snacks/Asset 8.png",
   "./Snacks/Asset 7.png",
   "./Snacks/Asset 6.png",
-  "./Snacks/Asset 5.png",
+  "./Snacks/Asset 6.png",
 ];
 
 const materials = urls.map(url => {
@@ -44,7 +44,7 @@ scene.add(cube);
 // scene.add(cube1);
 
 camera.position.z = 11;
-camera.position.y = 0.15;
+camera.position.y = 0.05;
 camera.position.x = 0;
 
 
@@ -80,7 +80,8 @@ function animate() {
   const rx = currentTimeline * 0.5 + 0.5 ;
   const ry = (currentTimeline * 0.9 + 0.1) * Math.PI * 20;
 
-  cube.rotation.set(rx, ry, 6.7);
+  cube.rotation.set(0.1, rx, -6.7);
+  //  cube.rotation.set(rx, ry, 6.7);
   // cube1.rotation.set(ry, rx, 0);
 
   renderer.render(scene, camera);
@@ -88,7 +89,8 @@ function animate() {
 animate();
 
 window.addEventListener("scroll", function() {
-  aimTimeline = window.pageYOffset / 3000;
+  aimTimeline = window.pageYOffset / 100;
+  //  aimTimeline = window.pageYOffset / 3000;
 })
 
 window.addEventListener('resize', onResize, false);
