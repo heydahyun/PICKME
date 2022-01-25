@@ -3,7 +3,7 @@
 const section = document.querySelector("section.book");
 
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(28, window.innerWidth / window.innerHeight, 0.9, 1000);
+const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.9, 1000);
 
 const renderer = new THREE.WebGLRenderer({
   alpha: true
@@ -44,7 +44,7 @@ scene.add(cube);
 // scene.add(cube1);
 
 camera.position.z = 10;
-camera.position.y = -0.1;
+camera.position.y = 0.2;
 camera.position.x = 0;
 
 
