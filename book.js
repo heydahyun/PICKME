@@ -21,9 +21,9 @@ const loader = new THREE.TextureLoader();
 
 const urls = [
   "./Snacks/Asset 2.png",
-  "./Snacks/Asset 16.png",
+  "./Snacks/Asset 2.png",
   "./Snacks/Asset 8.png",
-  "./Snacks/Asset 7.png",
+  "./Snacks/Asset 8.png",
   "./Snacks/Asset 6.png",
   "./Snacks/Asset 6.png",
 ];
