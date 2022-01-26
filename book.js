@@ -1,5 +1,3 @@
-
-
 const section = document.querySelector("section.book");
 
 const scene = new THREE.Scene();
@@ -54,17 +52,17 @@ let aimTimeline = window.pageYOffset / 3000;
 
 function onWindowResize() {
 
-				const canvasWidth = window.innerWidth;
-				const canvasHeight = window.innerHeight;
+  const canvasWidth = window.innerWidth;
+  const canvasHeight = window.innerHeight;
 
-				renderer.setSize( canvasWidth, canvasHeight );
+  renderer.setSize(canvasWidth, canvasHeight);
 
-				camera.aspect = canvasWidth / canvasHeight;
-				camera.updateProjectionMatrix();
+  camera.aspect = canvasWidth / canvasHeight;
+  camera.updateProjectionMatrix();
 
-				render();
+  render();
 
-			}
+}
 
 function animate() {
 
@@ -77,7 +75,7 @@ function animate() {
   currentTimeline += (aimTimeline - currentTimeline) * 0.1;
 
 
-  const rx = currentTimeline * 0.5 + 0.5 ;
+  const rx = currentTimeline * 0.5 + 0.5;
   const ry = (currentTimeline * 0.9 + 0.1) * Math.PI * 20;
 
   cube.rotation.set(0.1, rx, -6.7);
@@ -88,12 +86,13 @@ function animate() {
 }
 animate();
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
   aimTimeline = window.pageYOffset / 100;
   //  aimTimeline = window.pageYOffset / 3000;
 })
 
 window.addEventListener('resize', onResize, false);
+
 function onResize() {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
