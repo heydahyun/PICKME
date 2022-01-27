@@ -456,7 +456,7 @@ input[type=range] {
     border-radius: 25px;
     border: 1px solid red;
     position: relative;
-    height: 100vw;
+    height: 109vw;
     width: 90vw;
     background: rgb(255, 255, 255);
     z-index: 100;
