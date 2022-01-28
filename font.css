@@ -465,7 +465,7 @@ input[type=range] {
     height: 125%;
     color: black;
     line-height: 125%;
-    box-shadow: 50px 50px 35px 1px rgba(0,0,0, 0.3);
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0, 1);
   }
 
   input[type=range] {

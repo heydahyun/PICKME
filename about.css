@@ -62,8 +62,8 @@
 
 body {
   font-family: 'Lausanne';
-  /* background: url("./Img/bling.svg") repeat center center fixed;
-  background-size: 60%; */
+  background: url("./Img/bling.svg") repeat center center fixed;
+  background-size: 110%;
   /* background: url("./Img/Asset 4.svg") repeat center center fixed; */
   background-color: #ffe500;
   color: black;
@@ -164,12 +164,12 @@ footer {
 mark {
   background-color: #ffe500;
   color: black;
-  padding-right: 0px;
+  padding-right: 1px;
   padding-left: 4px;
   padding-top: 3px;
   padding-bottom: 6px;
-  box-shadow: 50px 50px 35px 1px rgba(0,0,0, 0.3);
-  /* box-shadow: 5px 5px 0px 0px rgba(0,0,0, 1); */
+  /* box-shadow: 50px 50px 35px 1px rgba(0,0,0, 0.3); */
+  box-shadow: 3px 3px 0px 0px rgba(0,0,0, 1);
 }
 
 mark::selection {
@@ -264,8 +264,8 @@ mark::selection {
     padding-right: 2px;
     padding-left: 2px;
     padding-top: 2px;
-    padding-bottom: 2px;
-    box-shadow: 50px 50px 35px 1px rgba(0,0,0, 0.3);
+    padding-bottom: 3px;
+      /* box-shadow: 50px 50px 35px 1px rgba(0,0,0, 0.3); */
   }
 
   .content2 {
