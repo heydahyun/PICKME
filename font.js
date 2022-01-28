@@ -44,11 +44,11 @@
       function bgWhite() {
         document.body.style.backgroundColor = "#eeeeee";
         document.getElementById('txt').style.backgroundColor = "#eeeeee";
-        document.getElementById('txt').style.color = "red";
+        document.getElementById('txt').style.color = "black";
       } 
       function bgYellow() {
-        document.body.style.backgroundColor = '#FFFF00';
-        document.getElementById('txt').style.backgroundColor = '#FFFF00';
+        document.body.style.backgroundColor = '#ffe500';
+        document.getElementById('txt').style.backgroundColor = '#ffe500';
         // document.getElementById('txt').style.color = '#FF65BD';
       } 
       function bgBlue() {

@@ -20,12 +20,12 @@ scene.add(directionalLight);
 const loader = new THREE.TextureLoader();
 
 const urls = [
-  "./Snacks/Asset 2.png",
-  "./Snacks/Asset 2.png",
-  "./Snacks/Asset 8.png",
-  "./Snacks/Asset 8.png",
-  "./Snacks/Asset 6.png",
-  "./Snacks/Asset 6.png",
+  "./Snacks/8.png",
+  "./Snacks/8.png",
+  "./Snacks/7.png",
+  "./Snacks/7.png",
+  "./Snacks/5.png",
+  "./Snacks/6.png",
 ];
 
 const materials = urls.map(url => {
@@ -34,7 +34,7 @@ const materials = urls.map(url => {
   })
 })
 
-const geometry = new THREE.BoxGeometry(4.0, 6.0, 2.0);
+const geometry = new THREE.BoxGeometry(4.0, 6.5, 0.1);
 
 // const cube1 = new THREE.Mesh(geometry, materials);
 const cube = new THREE.Mesh(geometry, materials);
