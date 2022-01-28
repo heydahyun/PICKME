@@ -1,7 +1,8 @@
 const section = document.querySelector("section.book");
 
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 0.9, 1000);
+const camera = new THREE.PerspectiveCamera(28, window.innerWidth / window.innerHeight, 0.9, 1000);
+// 40->28
 
 const renderer = new THREE.WebGLRenderer({
   alpha: true
