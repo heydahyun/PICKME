@@ -1,10 +1,10 @@
 body {
   /* background-image: url("./Img/Asset 1.svg"); */
-  background: url("./Img/Asset 1.svg") no-repeat center center fixed;
+  background: url("./Img/Asset 3.svg") repeat center center fixed, url("./Img/Asset 1.svg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 10%, cover;
   overflow-x: hidden;
   overflow-y: hidden;
   -webkit-touch-callout: none; /* iOS Safari */
@@ -262,7 +262,7 @@ footer {
 
 @media only screen and (max-width: 915px) {
   body{
-    background: url("./Img/Asset 4.svg") repeat center center fixed;
+    background: url("./Img/Asset 3.svg") repeat center center fixed;
     overflow-y: visible;
     overflow-x: hidden;
   }
