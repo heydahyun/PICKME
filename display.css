@@ -7,12 +7,18 @@ body {
   background-size: 10%, cover;
   overflow-x: hidden;
   overflow-y: hidden;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-   -khtml-user-select: none; /* Konqueror HTML */
-     -moz-user-select: none; /* Old versions of Firefox */
-      -ms-user-select: none; /* Internet Explorer/Edge */
-          user-select: none; /* Non-prefixed version, currently
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
                                 supported by Chrome, Edge, Opera and Firefox*/
 }
 
@@ -261,12 +267,12 @@ footer {
 }
 
 @media only screen and (max-width: 915px) {
-  body{
+  body {
     background: url("./Img/Asset 3.svg") repeat center center fixed;
     overflow-y: visible;
     overflow-x: hidden;
   }
-  
+
   .grid-img1 {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -274,7 +280,7 @@ footer {
     transform: scale(0.65) translate(1em, -7em);
     /* background-color: white; */
   }
-  
+
   .grid-img1:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -283,14 +289,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img2 {
     grid-area: 1 / 6 / 2 / 11;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(1em, -5em);
   }
-  
+
   .grid-img2:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -299,14 +305,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img3 {
     grid-area: 1 / 11 / 2 / 16;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(1em, -3em);
   }
-  
+
   .grid-img3:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -315,14 +321,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img4 {
     grid-area: 1 / 16 / 2 / 21;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(-1em, 8em);
   }
-  
+
   .grid-img4:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -330,14 +336,14 @@ footer {
     transform: scale(1.5) translate(5em, 6em) rotate(15deg);
     z-index: 10;
   }
-  
+
   .grid-img5 {
     grid-area: 1 / 21 / 2 / 26;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(-1em, 3em);
   }
-  
+
   .grid-img5:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -346,14 +352,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img6 {
     grid-area: 1 / 26 / 2 / 31;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(-1em, -3em);
   }
-  
+
   .grid-img6:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -362,14 +368,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img7 {
     grid-area: 2 / 1 / 4 / 7;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(4em, -18em);
   }
-  
+
   .grid-img7:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -378,14 +384,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img8 {
     grid-area: 2 / 7 / 4 / 13;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(5em, -12em);
   }
-  
+
   .grid-img8:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -394,14 +400,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img9 {
     grid-area: 2 / 13 / 4 / 19;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(9em, -8em);
   }
-  
+
   .grid-img9:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -410,14 +416,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img10 {
     grid-area: 2 / 19 / 3 / 26;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(-16em, 8em);
   }
-  
+
   .grid-img10:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -426,14 +432,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img11 {
     grid-area: 3 / 19 / 4 / 26;
     justify-self: center;
     align-self: end;
     transform: scale(0.65) translate(-6em, -6em);
   }
-  
+
   .grid-img11:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;
@@ -442,14 +448,14 @@ footer {
     z-index: 10;
     /* background-color: white; */
   }
-  
+
   .grid-img12 {
     grid-area: 2 / 26 / 4 / 31;
     justify-self: center;
     align-self: end;
     transform: scale(0.55) translate(-7em, -60em);
   }
-  
+
   .grid-img12:hover {
     grid-area: 1 / 1 / 2 / 6;
     justify-self: center;

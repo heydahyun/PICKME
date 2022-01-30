@@ -117,7 +117,7 @@ body {
 
 #txt {
   color: black;
-  
+
 }
 
 /* Color Buttons */
@@ -466,7 +466,7 @@ input[type=range] {
     height: 125%;
     color: black;
     line-height: 125%;
-    box-shadow: 3px 3px 0px 0px rgba(0,0,0, 1);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 1);
   }
 
   input[type=range] {
@@ -498,6 +498,6 @@ input[type=range] {
     hyphens: auto;
   }
 
-  
+
 
 }
