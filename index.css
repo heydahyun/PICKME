@@ -110,7 +110,8 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-  display: none;
+  background-color: #ffe500;
+  /* display: none; */
 }
 
 *::-webkit-scrollbar-thumb {
